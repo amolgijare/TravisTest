@@ -8,7 +8,7 @@ from wallet import Wallet, InsufficientAmount
 @pytest.fixture
 def empty_wallet():
     '''Returns a Wallet instance with a zero balance'''
-    ret urn Wallet()
+    return Wallet()
 
 @pytest.fixture
 def wallet():
