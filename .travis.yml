@@ -2,7 +2,7 @@ language: python
 python:
   - 3.8
 install:
-  - pip install pytest
+  - pip install pylint
 scripts:
   - pylint *.py
   - pytest
